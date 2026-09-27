@@ -1,0 +1,19 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/banner1.png</ImageUrl>
+    <NavigateUrl>~/Courses.aspx</NavigateUrl>
+    <AlternateText>Courses Offer</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/banner2.png</ImageUrl>
+    <NavigateUrl>~/KidsCourses.aspx</NavigateUrl>
+    <AlternateText>Kids Courses</AlternateText>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/banner3.png</ImageUrl>
+    <NavigateUrl>~/PreStudyMaterials.aspx</NavigateUrl>
+    <AlternateText>Pre Study Materials</AlternateText>
+  </Ad>
+</Advertisements>

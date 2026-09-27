@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Vedantu.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Vedantu Tuition Center</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" ></asp:ContentPlaceHolder>
+
+    <style>
+        body { font-family: Arial; margin:0; background:white }
+
+        .header {
+    background: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+        .logo { height:60px; margin-right:15px; }
+
+        .title {
+    color:orange;        
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+        .menu { background:darkorange; padding:10px; text-align:center; }
+
+        .menu a {
+            color:white;
+            margin:10px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        .menu a:hover { text-decoration:underline; }
+
+        .banner {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .banner img {
+            width: 80%;
+            max-width: 150px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px #aaa;
+        }
+}
+}
+
+        .content { padding:20px; min-height:500px; background:white; }
+
+        .footer {
+            background:darkorange;
+            color:white;
+            margin:10px;
+            text-decoration:none;
+            font-weight:bold;            
+            text-align:center;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+
+        <!-- HEADER -->
+        <div class="header">
+            <img src="Images/logo.jpg" class="logo" />
+            <div class="title">VEDANTU TUITION CENTER</div>
+        </div>
+
+        <!-- MENU -->
+        <div class="menu">
+            <a href="Home.aspx">Home</a>
+            <a href="Courses.aspx">Courses</a>
+            <a href="Kids.aspx">Kids Course</a>
+            <a href="PreStudyMaterials.aspx">Study Material</a>
+            <a href="ContactUs.aspx">Contact Us</a>
+            <a href="AboutUs.aspx">About Us</a>
+            <a href="OfflineCenter.aspx">OfflineCenter</a>
+            <a href="Db.aspx">Login / Register</a>
+            
+        </div>
+
+        <!-- BANNERS -->
+        <div class="banner">
+    <img src="Images/banner5.png" />
+</div>
+
+        <!-- CONTENT -->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            © 2026 Vedantu Tuition Center
+        </div>
+
+    </form>
+</body>
+</html>

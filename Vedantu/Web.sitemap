@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+
+  <siteMapNode url="~/Home.aspx" title="Home">
+    <siteMapNode url="~/Courses.aspx" title="Courses" />
+    <siteMapNode url="~/PreStudyMaterials.aspx" title="Pre Study Materials" />
+    <siteMapNode url="~/OfflineCenter.aspx" title="Offline Center" />
+    <siteMapNode url="~/KidsCourses.aspx" title="Course for Kids" />
+    <siteMapNode url="~/ContactUs.aspx" title="Contact Us" />
+    <siteMapNode url="~/AboutUs.aspx" title="About Us" />
+    <siteMapNode url="~/Login.aspx" title="Login / Register" />
+  </siteMapNode>
+
+</siteMap>
